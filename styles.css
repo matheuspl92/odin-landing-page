@@ -110,3 +110,29 @@ body {
     font-size: 18px;
     color: #898989;
 }
+
+.middle-quote {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 300px;
+}
+
+.middle-quote .quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+.middle-quote .author {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin: 0;
+}
