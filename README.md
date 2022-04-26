@@ -11,7 +11,11 @@ Some specific skills demonstrated in this project:
 ### CREDITS
 
 lake-and-mountain.jpg = Photo by Betsaid garcia on Unsplash
+
 cemetery-building.jpg = Photo by Angel Luciano on Unsplash
+
 runes.jpg = Photo by Carla Santiago on Unsplash
+
 moss-house.jpg = Photo by Carla Santiago on Unsplash
+
 boats.jpg = Photo by Pietro De Grandi on Unsplash
