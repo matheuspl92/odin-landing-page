@@ -67,4 +67,46 @@ body {
 .top-text-and-image img{
     flex: 1 0 auto;
     width: 400px;
+    height: 200px;
+    border: 2px solid white;
+}
+
+.middle-information-images {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.middle-information {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.middle-container {
+    display: flex;
+    gap: 50px;
+}
+
+.middle-images {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 basis;
+    align-items: center;
+}
+
+.middle-images img {
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.middle-images p {
+    width: 120px;
+    font-size: 18px;
+    color: #898989;
 }
