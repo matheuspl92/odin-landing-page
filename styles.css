@@ -136,3 +136,45 @@ body {
     align-self: flex-end;
     margin: 0;
 }
+
+.bottom-signup {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding: 75px 200px;
+}
+
+.bottom-signup .box {
+    display: flex;
+    align-items: center;
+    background: #3882f6;
+    padding: 30px 120px;
+    border-radius: 12px;
+    gap: 30px;
+}
+
+.bottom-text {
+    flex: 1 0 basis;
+}
+
+.bottom-signup .header {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+.bottom-signup .text {
+    color: #f9faf8;
+}
+
+.bottom-signup-button {
+    flex: 1 0 auto;
+    height: 40px;
+    width: 120px;
+    font-weight: bold;
+    color: #f9faf8;
+    background: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+}
