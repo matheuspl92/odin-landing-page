@@ -38,6 +38,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
+    gap: 30px;
 }
 
 
@@ -63,10 +64,11 @@ body {
 }
 
 .top-text-and-image img{
-    flex: 1 0 auto;
-    width: 400px;
-    height: 200px;
+    flex: 1 0 basis;
+    width: 700px;
+    height: 300px;
     border: 2px solid white;
+    border-radius: 10px;
 }
 
 .middle-information-images {
