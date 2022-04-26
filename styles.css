@@ -1,10 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: stretch;
-    min-height: 100vh;
-    width: auto;
     margin: 0;
     font-family: Roboto, sans-serif;
 }
@@ -35,7 +32,8 @@ body {
 
 .top-text-and-image {
     display: flex;
-    flex: 1 0 auto;
+    height: 350px;
+    flex: 1 0 basis;
     background: #1f2937;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +72,8 @@ body {
 .middle-information-images {
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
+    height: 350px;
+    flex: 1 0 basis;
     justify-content: space-around;
     align-items: center;
     padding: 0 200px;
@@ -115,7 +114,8 @@ body {
     background: #e5e7eb;
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
+    height: 200px;
+    flex: 1 0 basis;
     justify-content: space-around;
     align-items: center;
     padding: 50px 300px;
