@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 100vh;
+    width: auto;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.top-logo-and-links {
+    display: flex;
+    height: 80px;
+    flex: 1 0 basis;
+    background: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 24px;
+}
